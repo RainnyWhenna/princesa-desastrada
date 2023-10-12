@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Itim&family=Love+Ya+Like+A+Sister&display=swap');
+
+/* Reset CSS */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+.cabecalho{
+    background-color: #6706A5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.cabecalho-imagem{
+    height: 100px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+body{
+    background-color: #B691D2;
+}
+
+h1{
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.conteudo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.amora{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.amora-texto{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    font-size: 22px;
+    gap: 10px;
+}
+
+.amora-imagem{
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.livros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;  
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.livro-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.livro-imagem{
+    height: 270px;
+    width: 200px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.personagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.personagem-imagem{
+    height: 200px;
+    width: 200px;
+}
+
+.personagem-descricao{
+    text-align: center;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 5;
+}
+
+.autora{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.autora-texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 10px;
+}
+
+.autora-imagem{
+    height: 250px;
+    width: 250px;
+    border: 2px white solid;
+    border-radius: 150px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.contato-bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contato-icones{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.contato-imagem{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.footer-principal{
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6706A5;
+    padding: 10px;
+}
+
+.footer-secundario{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6706A5;
+    padding: 10px;
+}
+
+.rodape{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
